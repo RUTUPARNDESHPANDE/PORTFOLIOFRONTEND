@@ -1,0 +1,66 @@
+.projects-section {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.projects-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.projects-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: #000; /* Default black */
+  border-radius: 10px;
+  padding: 30px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover colors for individual cards */
+.project-card.project-0:hover {
+  background-color: #cd4e87; /* Maroon */
+}
+.project-card.project-1:hover {
+  background-color: #cd4e87;
+}
+.project-card.project-2:hover {
+  background-color: #cd4e87;
+}
+
+.project-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-description,
+.project-tech {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.project-link {
+  color: #ccc;
+  margin-top: auto;
+  text-decoration: underline;
+  font-size: 14px;
+}

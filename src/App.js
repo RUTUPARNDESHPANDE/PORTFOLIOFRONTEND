@@ -2,7 +2,8 @@ import React from 'react';
 import About from './components/About';
 import Skills from './components/Skills';
 import Education from './components/Education';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/Contact';
+import Projects from './components/Projects';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,8 +15,8 @@ function App() {
           <a className="navbar-brand" href="#about">Portfolio</a>
           <div>
             <a className="nav-link d-inline text-white" href="#about">About</a>
-            <a className="nav-link d-inline text-white" href="#skills">Skills</a>
-            <a className="nav-link d-inline text-white" href="#education">Education</a>
+            <a className="nav-link d-inline text-white" href="#projects">Projects</a>
+            {/* <a className="nav-link d-inline text-white" href="#education">Education</a> */}
             <a className="nav-link d-inline text-white" href="#contact">Contact</a>
           </div>
         </div>
@@ -24,8 +25,9 @@ function App() {
       <div className="container pt-5">
         <h1 className="text-center mt-5 mb-4 section-title">Rutuparn Deshpande Portfolio</h1>
         <About />
-        <Skills />
-        <Education />
+        <Projects/>
+        {/* <Skills /> */}
+        {/* <Education /> */}
         <ContactForm />
       </div>
     </>
