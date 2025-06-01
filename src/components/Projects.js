@@ -12,7 +12,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('https://portfoliobackend-mxoq.onrender.com/1/api/projects')
+    fetch('https://portfoliobackend-mxoq.onrender.com/api/projects')
       .then(response => response.json())
       .then(data => setProjects(data))
       .catch(error => console.error('Error fetching projects:', error));
